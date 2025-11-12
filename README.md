@@ -8,3 +8,5 @@ I'll start a new repo for that when I'm done with tutorials.
 We now have gnn_edgeconv_dwell.py which trains and evaluates a simple STANAG 4607 simulation.  
 simulation_1.py produces a 5km square of 100 background points and 100 points that are spread across 10 line groups.  
 Line is the first motion signature we are working with.  
+
+gnn_edgeconv_infer.py reads in a new simulation and uses the trained model edge_dwell_best.pt to predict the class of the motion points.  
